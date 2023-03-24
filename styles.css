@@ -1,0 +1,156 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    background-color: #131313;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    max-height: 50px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .menu ul li {
+    margin-right: 1.5rem;
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #35d0ba;
+  }
+  
+  /* Hero */
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 62px);
+    background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('hero-bg-placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-visual {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .hero-visual img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background-color: #35d0ba;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    outline: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #24bda5;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .social-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .social-link:hover {
+    color: #35d0ba;
+  }
+  
