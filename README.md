@@ -1,0 +1,2 @@
+# .Point
+Welcome to .Point
